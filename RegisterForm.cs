@@ -16,5 +16,15 @@ namespace JHRTeam_App
         {
             InitializeComponent();
         }
+
+        private void RegisterForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
