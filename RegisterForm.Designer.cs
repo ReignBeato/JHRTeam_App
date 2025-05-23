@@ -44,11 +44,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(440, 329);
+            this.button1.Location = new System.Drawing.Point(466, 313);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 47);
+            this.button1.Size = new System.Drawing.Size(108, 37);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "SIGN UP";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // textBox1
@@ -63,9 +63,11 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::JHRTeam_App.Properties.Resources.pexels_vertex_holiday_137931561_15917025;
             this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(195, 277);
+            this.pictureBox1.Size = new System.Drawing.Size(393, 390);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
@@ -125,9 +127,9 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(440, 290);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.Size = new System.Drawing.Size(136, 17);
             this.checkBox1.TabIndex = 8;
-            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.Text = "accept terms & condition";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // label1
