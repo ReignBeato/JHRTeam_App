@@ -16,5 +16,10 @@ namespace JHRTeam_App
         {
             InitializeComponent();
         }
+
+        private void LogInForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
