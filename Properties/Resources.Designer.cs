@@ -63,6 +63,16 @@ namespace JHRTeam_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pexels_vertex_holiday_137931561_15917025 {
+            get {
+                object obj = ResourceManager.GetObject("pexels_vertex_holiday_137931561_15917025", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Untitled_design__5_ {
             get {
                 object obj = ResourceManager.GetObject("Untitled_design__5_", resourceCulture);
