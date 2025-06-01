@@ -26,5 +26,11 @@ namespace JHRTeam_App
         {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string email = txtemail.Text.Trim();
+            string password = txtPassword.Text;
+        }
     }
 }
