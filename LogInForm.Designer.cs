@@ -50,7 +50,9 @@
             this.panel1.Controls.Add(this.lblWelcome);
             this.panel1.Location = new System.Drawing.Point(590, 83);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(350, 350);
+
+            this.panel1.Size = new System.Drawing.Size(340, 328);
+
             this.panel1.TabIndex = 0;
             // 
             // btnLogin
