@@ -26,12 +26,35 @@ namespace JHRTeam_App
         {
 
         }
-        
+
         private void buttonSignIn_Click(object sender, EventArgs e)
         {
             this.Hide();
             Form RegisterForm = new RegisterForm();
             RegisterForm.ShowDialog();
+        }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            // Get user input
+            string email = txtemail.Text.Trim();
+            string password = txtPassword.Text;
+
+            // Simple validation
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password)) 
+            {
+                MessageBox.Show("Please enter your email and password.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+               
+                return;
+            }
+            if (!System.IO.File.Exists("users.txt"))
+            {
+                MessageBox.Show("No registered users found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+           
+            
+
         }
     }
 }
