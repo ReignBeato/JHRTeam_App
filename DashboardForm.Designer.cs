@@ -43,7 +43,7 @@
             this.panelTabs.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
@@ -55,10 +55,10 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "JHR TR  VELS";
             // 
-            // button2
+            // buttonHome
             // 
             this.buttonHome.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.buttonHome.Location = new System.Drawing.Point(523, 8);
+            this.buttonHome.Location = new System.Drawing.Point(519, 8);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(174, 55);
             this.buttonHome.TabIndex = 1;
@@ -68,7 +68,7 @@
             // 
             // buttonPackages
             // 
-            this.buttonPackages.Location = new System.Drawing.Point(733, 8);
+            this.buttonPackages.Location = new System.Drawing.Point(710, 8);
             this.buttonPackages.Name = "buttonPackages";
             this.buttonPackages.Size = new System.Drawing.Size(174, 55);
             this.buttonPackages.TabIndex = 2;
@@ -78,7 +78,7 @@
             // 
             // buttonAirlines
             // 
-            this.buttonAirlines.Location = new System.Drawing.Point(940, 8);
+            this.buttonAirlines.Location = new System.Drawing.Point(901, 8);
             this.buttonAirlines.Name = "buttonAirlines";
             this.buttonAirlines.Size = new System.Drawing.Size(174, 55);
             this.buttonAirlines.TabIndex = 3;
@@ -88,7 +88,7 @@
             // 
             // buttonHotels
             // 
-            this.buttonHotels.Location = new System.Drawing.Point(1146, 8);
+            this.buttonHotels.Location = new System.Drawing.Point(1093, 8);
             this.buttonHotels.Name = "buttonHotels";
             this.buttonHotels.Size = new System.Drawing.Size(174, 55);
             this.buttonHotels.TabIndex = 4;
@@ -98,7 +98,7 @@
             // 
             // buttonTickets
             // 
-            this.buttonTickets.Location = new System.Drawing.Point(1355, 8);
+            this.buttonTickets.Location = new System.Drawing.Point(1283, 8);
             this.buttonTickets.Name = "buttonTickets";
             this.buttonTickets.Size = new System.Drawing.Size(174, 55);
             this.buttonTickets.TabIndex = 5;
@@ -167,13 +167,13 @@
             this.panelTabs.Controls.Add(this.label1);
             this.panelTabs.Location = new System.Drawing.Point(15, 12);
             this.panelTabs.Name = "panelTabs";
-            this.panelTabs.Size = new System.Drawing.Size(1555, 78);
+            this.panelTabs.Size = new System.Drawing.Size(1527, 78);
             this.panelTabs.TabIndex = 12;
             // 
             // DashboardForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(192F, 192F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::JHRTeam_App.Properties.Resources.Untitled_design__5_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1577, 950);
@@ -183,11 +183,13 @@
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "DashboardForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Dashboard Form";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelTabs.ResumeLayout(false);
             this.panelTabs.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
