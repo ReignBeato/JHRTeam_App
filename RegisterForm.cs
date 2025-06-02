@@ -107,17 +107,21 @@ namespace JHRTeam_App
         }
 
         private bool IsValidEmail(string email)
-        {
+        {// Try to run the code inside this block
             try
             {
+                // Check if the email is in a valid format using regular expression
                 return System.Text.RegularExpressions.Regex.IsMatch(email,
                     @"^[^@\s]+@[^@\s]+\.[^@\s]+$",
                     System.Text.RegularExpressions.RegexOptions.IgnoreCase);
             }
+            // If there is an error while checking (like email is null), this block runs
             catch
             {
+                // Return false if there was an error
                 return false;
             }
+
         }
 
         private void buttonBooking_Click(object sender, EventArgs e)
