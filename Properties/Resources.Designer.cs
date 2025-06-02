@@ -65,17 +65,7 @@ namespace JHRTeam_App.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap pexels_vertex_holiday_137931561_15917025 {
             get {
-                object obj = ResourceManager.GetObject("pexels-vertex-holiday-137931561-15917025", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pexels_vertex_holiday_137931561_159170251 {
-            get {
-                object obj = ResourceManager.GetObject("pexels-vertex-holiday-137931561-159170251", resourceCulture);
+                object obj = ResourceManager.GetObject("pexels_vertex_holiday_137931561_15917025", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
