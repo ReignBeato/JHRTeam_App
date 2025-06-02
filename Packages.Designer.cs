@@ -59,7 +59,7 @@
             // 
             this.buttonHome.Location = new System.Drawing.Point(523, 8);
             this.buttonHome.Name = "buttonHome";
-            this.buttonHome.Size = new System.Drawing.Size(174, 55);
+            this.buttonHome.Size = new System.Drawing.Size(170, 55);
             this.buttonHome.TabIndex = 1;
             this.buttonHome.Text = "Home";
             this.buttonHome.UseVisualStyleBackColor = true;
@@ -68,9 +68,9 @@
             // buttonPackages
             // 
             this.buttonPackages.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.buttonPackages.Location = new System.Drawing.Point(733, 8);
+            this.buttonPackages.Location = new System.Drawing.Point(715, 8);
             this.buttonPackages.Name = "buttonPackages";
-            this.buttonPackages.Size = new System.Drawing.Size(174, 55);
+            this.buttonPackages.Size = new System.Drawing.Size(169, 55);
             this.buttonPackages.TabIndex = 2;
             this.buttonPackages.Text = "Packages";
             this.buttonPackages.UseVisualStyleBackColor = false;
@@ -78,7 +78,7 @@
             // 
             // buttonAirlines
             // 
-            this.buttonAirlines.Location = new System.Drawing.Point(940, 8);
+            this.buttonAirlines.Location = new System.Drawing.Point(901, 8);
             this.buttonAirlines.Name = "buttonAirlines";
             this.buttonAirlines.Size = new System.Drawing.Size(174, 55);
             this.buttonAirlines.TabIndex = 3;
@@ -88,7 +88,7 @@
             // 
             // buttonHotels
             // 
-            this.buttonHotels.Location = new System.Drawing.Point(1146, 8);
+            this.buttonHotels.Location = new System.Drawing.Point(1093, 8);
             this.buttonHotels.Name = "buttonHotels";
             this.buttonHotels.Size = new System.Drawing.Size(174, 55);
             this.buttonHotels.TabIndex = 4;
@@ -98,7 +98,7 @@
             // 
             // buttonTickets
             // 
-            this.buttonTickets.Location = new System.Drawing.Point(1355, 8);
+            this.buttonTickets.Location = new System.Drawing.Point(1283, 8);
             this.buttonTickets.Name = "buttonTickets";
             this.buttonTickets.Size = new System.Drawing.Size(174, 55);
             this.buttonTickets.TabIndex = 5;

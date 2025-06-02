@@ -34,8 +34,8 @@
             this.buttonAirlines = new System.Windows.Forms.Button();
             this.buttonHotels = new System.Windows.Forms.Button();
             this.buttonTickets = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelTabs.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -67,7 +67,7 @@
             // 
             // buttonPackages
             // 
-            this.buttonPackages.Location = new System.Drawing.Point(733, 8);
+            this.buttonPackages.Location = new System.Drawing.Point(712, 8);
             this.buttonPackages.Name = "buttonPackages";
             this.buttonPackages.Size = new System.Drawing.Size(174, 55);
             this.buttonPackages.TabIndex = 2;
@@ -78,7 +78,7 @@
             // buttonAirlines
             // 
             this.buttonAirlines.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.buttonAirlines.Location = new System.Drawing.Point(940, 8);
+            this.buttonAirlines.Location = new System.Drawing.Point(903, 8);
             this.buttonAirlines.Name = "buttonAirlines";
             this.buttonAirlines.Size = new System.Drawing.Size(174, 55);
             this.buttonAirlines.TabIndex = 3;
@@ -88,7 +88,7 @@
             // 
             // buttonHotels
             // 
-            this.buttonHotels.Location = new System.Drawing.Point(1146, 8);
+            this.buttonHotels.Location = new System.Drawing.Point(1095, 8);
             this.buttonHotels.Name = "buttonHotels";
             this.buttonHotels.Size = new System.Drawing.Size(174, 55);
             this.buttonHotels.TabIndex = 4;
@@ -98,25 +98,13 @@
             // 
             // buttonTickets
             // 
-            this.buttonTickets.Location = new System.Drawing.Point(1355, 8);
+            this.buttonTickets.Location = new System.Drawing.Point(1285, 8);
             this.buttonTickets.Name = "buttonTickets";
             this.buttonTickets.Size = new System.Drawing.Size(174, 55);
             this.buttonTickets.TabIndex = 5;
             this.buttonTickets.Text = "Tickets";
             this.buttonTickets.UseVisualStyleBackColor = true;
             this.buttonTickets.Click += new System.EventHandler(this.buttonTickets_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(23, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(372, 55);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "JHR TR  VELS";
             // 
             // pictureBox1
             // 
@@ -129,6 +117,18 @@
             this.pictureBox1.Size = new System.Drawing.Size(52, 50);
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(23, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(372, 55);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "JHR TR  VELS";
             // 
             // Airlines
             // 
