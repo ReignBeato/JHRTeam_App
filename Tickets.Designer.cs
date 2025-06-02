@@ -1,6 +1,6 @@
 ﻿namespace JHRTeam_App
 {
-    partial class Hotels
+    partial class Tickets
     {
         /// <summary>
         /// Required designer variable.
@@ -53,7 +53,7 @@
             this.panelTabs.Location = new System.Drawing.Point(10, 12);
             this.panelTabs.Name = "panelTabs";
             this.panelTabs.Size = new System.Drawing.Size(1555, 78);
-            this.panelTabs.TabIndex = 13;
+            this.panelTabs.TabIndex = 14;
             // 
             // buttonHome
             // 
@@ -77,33 +77,34 @@
             // 
             // buttonAirlines
             // 
+            this.buttonAirlines.BackColor = System.Drawing.Color.Transparent;
             this.buttonAirlines.Location = new System.Drawing.Point(940, 8);
             this.buttonAirlines.Name = "buttonAirlines";
             this.buttonAirlines.Size = new System.Drawing.Size(174, 55);
             this.buttonAirlines.TabIndex = 3;
             this.buttonAirlines.Text = "Airlines";
-            this.buttonAirlines.UseVisualStyleBackColor = true;
+            this.buttonAirlines.UseVisualStyleBackColor = false;
             this.buttonAirlines.Click += new System.EventHandler(this.buttonAirlines_Click);
             // 
             // buttonHotels
             // 
-            this.buttonHotels.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonHotels.Location = new System.Drawing.Point(1146, 8);
             this.buttonHotels.Name = "buttonHotels";
             this.buttonHotels.Size = new System.Drawing.Size(174, 55);
             this.buttonHotels.TabIndex = 4;
             this.buttonHotels.Text = "Hotels";
-            this.buttonHotels.UseVisualStyleBackColor = false;
+            this.buttonHotels.UseVisualStyleBackColor = true;
             this.buttonHotels.Click += new System.EventHandler(this.buttonHotels_Click);
             // 
             // buttonTickets
             // 
+            this.buttonTickets.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonTickets.Location = new System.Drawing.Point(1355, 8);
             this.buttonTickets.Name = "buttonTickets";
             this.buttonTickets.Size = new System.Drawing.Size(174, 55);
             this.buttonTickets.TabIndex = 5;
             this.buttonTickets.Text = "Tickets";
-            this.buttonTickets.UseVisualStyleBackColor = true;
+            this.buttonTickets.UseVisualStyleBackColor = false;
             this.buttonTickets.Click += new System.EventHandler(this.buttonTickets_Click);
             // 
             // label1
@@ -130,15 +131,15 @@
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
-            // Hotels
+            // Tickets
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(198)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(115)))), ((int)(((byte)(90)))));
             this.ClientSize = new System.Drawing.Size(1577, 950);
             this.Controls.Add(this.panelTabs);
-            this.Name = "Hotels";
-            this.Text = "Hotels";
+            this.Name = "Tickets";
+            this.Text = "Tickets";
             this.panelTabs.ResumeLayout(false);
             this.panelTabs.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

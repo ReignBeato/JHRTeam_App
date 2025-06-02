@@ -42,5 +42,12 @@ namespace JHRTeam_App
             Form Airlines = new Airlines();
             Airlines.ShowDialog();
         }
+
+        private void buttonTickets_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form Tickets = new Tickets();
+            Tickets.ShowDialog();
+        }
     }
 }

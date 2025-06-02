@@ -119,6 +119,13 @@ namespace JHRTeam_App
                 return false;
             }
         }
+
+        private void buttonBooking_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form Tickets = new Tickets();
+            Tickets.ShowDialog();
+        }
     }
 }
 

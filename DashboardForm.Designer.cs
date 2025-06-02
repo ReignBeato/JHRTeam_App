@@ -104,6 +104,7 @@
             this.buttonTickets.TabIndex = 5;
             this.buttonTickets.Text = "Tickets";
             this.buttonTickets.UseVisualStyleBackColor = true;
+            this.buttonTickets.Click += new System.EventHandler(this.buttonTickets_Click);
             // 
             // pictureBox1
             // 
