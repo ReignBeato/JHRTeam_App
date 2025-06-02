@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace JHRTeam_App
 {
     public partial class RegisterForm : Form
     {
+
         public RegisterForm()
         {
             InitializeComponent();
+                   
+
         }
         
         private void RegisterForm_Load(object sender, EventArgs e)
@@ -129,6 +133,26 @@ namespace JHRTeam_App
             this.Hide();
             Form Tickets = new Tickets();
             Tickets.ShowDialog();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
