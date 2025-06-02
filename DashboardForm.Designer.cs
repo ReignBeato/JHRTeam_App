@@ -43,7 +43,7 @@
             this.panelTabs.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // button1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
@@ -55,7 +55,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "JHR TR  VELS";
             // 
-            // buttonHome
+            // button2
             // 
             this.buttonHome.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonHome.Location = new System.Drawing.Point(523, 8);
@@ -188,7 +188,6 @@
             this.panelTabs.ResumeLayout(false);
             this.panelTabs.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

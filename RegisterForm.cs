@@ -16,7 +16,7 @@ namespace JHRTeam_App
         {
             InitializeComponent();
         }
-
+        
         private void RegisterForm_Load(object sender, EventArgs e)
         {
 
@@ -128,4 +128,3 @@ namespace JHRTeam_App
         }
     }
 }
-
