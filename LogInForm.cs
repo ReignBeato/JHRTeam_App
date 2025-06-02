@@ -26,10 +26,12 @@ namespace JHRTeam_App
         {
 
         }
-
-        private void btnLogin_Click(object sender, EventArgs e)
+        
+        private void buttonSignIn_Click(object sender, EventArgs e)
         {
-           
+            this.Hide();
+            Form RegisterForm = new RegisterForm();
+            RegisterForm.ShowDialog();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace JHRTeam_App
 {
-    partial class DashboardForm
+    partial class Packages
     {
         /// <summary>
         /// Required designer variable.
@@ -28,52 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.panelTabs = new System.Windows.Forms.Panel();
             this.buttonHome = new System.Windows.Forms.Button();
             this.buttonPackages = new System.Windows.Forms.Button();
             this.buttonAirlines = new System.Windows.Forms.Button();
             this.buttonHotels = new System.Windows.Forms.Button();
             this.buttonTickets = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panelTabs = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelTabs.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // panelTabs
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(23, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(372, 55);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "JHR TR  VELS";
+            this.panelTabs.BackColor = System.Drawing.Color.Transparent;
+            this.panelTabs.Controls.Add(this.buttonHome);
+            this.panelTabs.Controls.Add(this.buttonPackages);
+            this.panelTabs.Controls.Add(this.buttonAirlines);
+            this.panelTabs.Controls.Add(this.buttonHotels);
+            this.panelTabs.Controls.Add(this.buttonTickets);
+            this.panelTabs.Controls.Add(this.pictureBox1);
+            this.panelTabs.Controls.Add(this.label1);
+            this.panelTabs.Location = new System.Drawing.Point(10, 12);
+            this.panelTabs.Name = "panelTabs";
+            this.panelTabs.Size = new System.Drawing.Size(1555, 78);
+            this.panelTabs.TabIndex = 13;
             // 
-            // button2
+            // buttonHome
             // 
-            this.buttonHome.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonHome.Location = new System.Drawing.Point(523, 8);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(174, 55);
             this.buttonHome.TabIndex = 1;
             this.buttonHome.Text = "Home";
-            this.buttonHome.UseVisualStyleBackColor = false;
+            this.buttonHome.UseVisualStyleBackColor = true;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
             // 
             // buttonPackages
             // 
+            this.buttonPackages.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonPackages.Location = new System.Drawing.Point(733, 8);
             this.buttonPackages.Name = "buttonPackages";
             this.buttonPackages.Size = new System.Drawing.Size(174, 55);
             this.buttonPackages.TabIndex = 2;
             this.buttonPackages.Text = "Packages";
-            this.buttonPackages.UseVisualStyleBackColor = true;
+            this.buttonPackages.UseVisualStyleBackColor = false;
             this.buttonPackages.Click += new System.EventHandler(this.buttonPackages_Click);
             // 
             // buttonAirlines
@@ -118,91 +118,43 @@
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
-            // label2
+            // label1
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Elephant", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(441, 393);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(678, 123);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "WELCOME";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(23, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(372, 55);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "JHR TR  VELS";
             // 
-            // label3
+            // Packages
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Lucida Sans Typewriter", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(589, 502);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(390, 110);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "तपाईंलाई यहाँ स्वागत छ\n ";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Lucida Sans Typewriter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(600, 567);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(362, 54);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Your Adventure, Our Guide\r\nDiscover Nepal with Ease";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panelTabs
-            // 
-            this.panelTabs.BackColor = System.Drawing.Color.Transparent;
-            this.panelTabs.Controls.Add(this.buttonHome);
-            this.panelTabs.Controls.Add(this.buttonPackages);
-            this.panelTabs.Controls.Add(this.buttonAirlines);
-            this.panelTabs.Controls.Add(this.buttonHotels);
-            this.panelTabs.Controls.Add(this.buttonTickets);
-            this.panelTabs.Controls.Add(this.pictureBox1);
-            this.panelTabs.Controls.Add(this.label1);
-            this.panelTabs.Location = new System.Drawing.Point(15, 12);
-            this.panelTabs.Name = "panelTabs";
-            this.panelTabs.Size = new System.Drawing.Size(1555, 78);
-            this.panelTabs.TabIndex = 12;
-            // 
-            // DashboardForm
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(192F, 192F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.BackgroundImage = global::JHRTeam_App.Properties.Resources.Untitled_design__5_;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(195)))), ((int)(((byte)(175)))));
             this.ClientSize = new System.Drawing.Size(1577, 950);
             this.Controls.Add(this.panelTabs);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "DashboardForm";
-            this.Text = "Dashboard Form";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Name = "Packages";
+            this.Text = "Packages";
             this.panelTabs.ResumeLayout(false);
             this.panelTabs.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label1;
+
+        private System.Windows.Forms.Panel panelTabs;
         private System.Windows.Forms.Button buttonHome;
         private System.Windows.Forms.Button buttonPackages;
         private System.Windows.Forms.Button buttonAirlines;
         private System.Windows.Forms.Button buttonHotels;
         private System.Windows.Forms.Button buttonTickets;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel panelTabs;
+        private System.Windows.Forms.Label label1;
     }
 }
-

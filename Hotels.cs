@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace JHRTeam_App
 {
-    public partial class DashboardForm : Form
+    public partial class Hotels : Form
     {
-        public DashboardForm()
+        public Hotels()
         {
             InitializeComponent();
+        }
+
+        private void buttonHotels_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void buttonHome_Click(object sender, EventArgs e)
@@ -31,13 +36,6 @@ namespace JHRTeam_App
             Packages.ShowDialog();
         }
 
-        private void buttonHotels_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form Hotels = new Hotels();
-            Hotels.ShowDialog();
-        }
-
         private void buttonAirlines_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -48,8 +46,8 @@ namespace JHRTeam_App
         private void buttonTickets_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form LogInForm = new LogInForm();
-            LogInForm.ShowDialog();
+            Form Tickets = new Tickets();
+            Tickets.ShowDialog();
         }
     }
 }
