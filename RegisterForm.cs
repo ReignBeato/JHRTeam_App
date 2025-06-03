@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace JHRTeam_App
 {
     public partial class RegisterForm : Form
     {
+
         public RegisterForm()
         {
             InitializeComponent();
+                   
+
         }
         
         private void RegisterForm_Load(object sender, EventArgs e)
@@ -107,17 +111,21 @@ namespace JHRTeam_App
         }
 
         private bool IsValidEmail(string email)
-        {
+        {// Try to run the code inside this block
             try
             {
+                // Check if the email is in a valid format using regular expression
                 return System.Text.RegularExpressions.Regex.IsMatch(email,
                     @"^[^@\s]+@[^@\s]+\.[^@\s]+$",
                     System.Text.RegularExpressions.RegexOptions.IgnoreCase);
             }
+            // If there is an error while checking (like email is null), this block runs
             catch
             {
+                // Return false if there was an error
                 return false;
             }
+
         }
 
         private void buttonBooking_Click(object sender, EventArgs e)
@@ -126,5 +134,30 @@ namespace JHRTeam_App
             Form Tickets = new Tickets();
             Tickets.ShowDialog();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RegisterForm_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
