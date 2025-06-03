@@ -90,6 +90,7 @@
             this.linklblforgotpassword.TabIndex = 4;
             this.linklblforgotpassword.TabStop = true;
             this.linklblforgotpassword.Text = "Forgot Password?";
+            this.linklblforgotpassword.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linklblforgotpassword_LinkClicked);
             // 
             // txtPassword
             // 
@@ -136,7 +137,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1051, 608);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LogInForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Log In Form";
