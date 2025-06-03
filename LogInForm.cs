@@ -27,6 +27,20 @@ namespace JHRTeam_App
 
         }
 
+        private bool IsValidUser(string email, string password)
+        {
+            // Read users from file
+            var lines = System.IO.File.ReadAllLines("users.txt");
+            foreach (var line in lines)
+            {
+                var parts = line.Split(',');
+                if (parts.Length >= 2 && parts[0].Trim() == email && parts[1].Trim() == password)
+                {
+                    return true; // User found
+                }
+            }
+            return false; // User not found
+        }
         private void buttonSignIn_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -52,8 +66,21 @@ namespace JHRTeam_App
                 MessageBox.Show("No registered users found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-           
-            
+
+       
+        
+                // Read users from file
+                if (IsValidUser(email, password))
+            {
+                MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Hide();
+                Form MainForm = new Form();
+                MainForm.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Invalid email or password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
         }
     }
