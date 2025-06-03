@@ -9,11 +9,13 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using Microsoft.VisualBasic;
 
 namespace JHRTeam_App
 {
     public partial class LogInForm : Form
     {
+
         public LogInForm()
         {
             InitializeComponent();
@@ -88,6 +90,46 @@ namespace JHRTeam_App
             }
 
         }
+
+        private void linklblforgotpassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            string email = Microsoft.VisualBasic.Interaction.InputBox( "Enter your registered email address:","Forgot Password", "");
+       
+
+            if (string.IsNullOrEmpty(email))
+            {
+                MessageBox.Show("Email is required to reset your password.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (!System.IO.File.Exists("users.txt"))
+            {
+                MessageBox.Show("No users found in the system.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            string foundPassword = null;
+            var lines = System.IO.File.ReadAllLines("users.txt");
+            foreach (var line in lines)
+            {
+                var parts = line.Split('|');
+                if (parts.Length == 2 && parts[0].Equals(email, StringComparison.OrdinalIgnoreCase))
+                {
+                    foundPassword = parts[1];
+                    break;
+                }
+            }
+
+            if (foundPassword != null)
+            {
+                MessageBox.Show($"Your password is: {foundPassword}", "Password Found", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Email not found. Please check and try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        
+    }
     }
 }
 
