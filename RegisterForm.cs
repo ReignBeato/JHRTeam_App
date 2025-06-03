@@ -33,8 +33,8 @@ namespace JHRTeam_App
 
         }
 
-        
-           private void button1_Click(object sender, EventArgs e)
+
+        private void button1_Click(object sender, EventArgs e)
         {
             //Get trimmed user input from all fields
             string firstName = textBox1.Text.Trim();
@@ -141,7 +141,7 @@ namespace JHRTeam_App
                 checkBox1.Focus();
                 return;
             }
-
+        }
 
           
         private bool IsValidEmail(string email)
