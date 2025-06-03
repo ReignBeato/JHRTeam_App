@@ -78,6 +78,8 @@
             this.textBox1.Size = new System.Drawing.Size(195, 31);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "👤  First Name";
+            this.textBox1.UseWaitCursor = true;
+            this.textBox1.HideSelectionChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pictureBox1
@@ -196,6 +198,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "RegisterForm";
             this.Text = "Register Form";
+            this.Load += new System.EventHandler(this.RegisterForm_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -206,6 +209,7 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
+
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
