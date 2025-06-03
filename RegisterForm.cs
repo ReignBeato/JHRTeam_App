@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using MySql.Data.MySqlClient;
+
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -14,8 +14,7 @@ namespace JHRTeam_App
 {
     public partial class RegisterForm : Form
     {
-        // Define MySQL connection string
-        string connectionString = "Server=localhost;Database=nepal;Uid=root;Pwd=;";
+     
 
         public RegisterForm()
         {
@@ -45,7 +44,7 @@ namespace JHRTeam_App
             string password = textBox5.Text;
             string confirmPassword = textBox6.Text;
 
-            // 🔹 Validate First Name
+            //  Validate First Name
             if (string.IsNullOrEmpty(firstName) || firstName == "First Name")
             {
                 MessageBox.Show("Please enter your First Name.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -53,7 +52,7 @@ namespace JHRTeam_App
                 return;
             }
 
-            // 🔹 Validate Last Name
+            //  Validate Last Name
             if (string.IsNullOrEmpty(lastName) || lastName == "Last Name")
             {
                 MessageBox.Show("Please enter your Last Name.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -75,7 +74,7 @@ namespace JHRTeam_App
                 return;
             }
 
-            // 🔹 Validate Email (not empty and correct format)
+            //  Validate Email (not empty and correct format)
             if (string.IsNullOrEmpty(email) || email == "📧  Email")
             {
                 MessageBox.Show("Please enter your Email.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -135,7 +134,7 @@ namespace JHRTeam_App
             }
 
 
-            // 🔹 Ensure Terms and Conditions are accepted
+            //  Ensure Terms and Conditions are accepted
             if (!checkBox1.Checked)
             {
                 MessageBox.Show("You must accept the terms & conditions.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -144,65 +143,7 @@ namespace JHRTeam_App
             }
 
 
-            // 🔹 Begin database interaction
-            using (MySqlConnection conn = new MySqlConnection(connectionString))
-            {
-                try
-                {
-                    conn.Open();
-
-                    //  Check if Email already exists
-                    string emailCheckQuery = "SELECT COUNT(*) FROM users WHERE Email = @Email";
-                    using (MySqlCommand emailCmd = new MySqlCommand(emailCheckQuery, conn))
-                    {
-                        emailCmd.Parameters.AddWithValue("@Email", email);
-                        int emailCount = Convert.ToInt32(emailCmd.ExecuteScalar());
-                        if (emailCount > 0)
-                        {
-                            MessageBox.Show("Email already exists.", "Duplicate Entry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            textBox4.Focus();
-                            return;
-                        }
-                    }
-
-                    //  Check if Phone number already exists
-                    string phoneCheckQuery = "SELECT COUNT(*) FROM users WHERE Phone = @Phone";
-                    using (MySqlCommand phoneCmd = new MySqlCommand(phoneCheckQuery, conn))
-                    {
-                        phoneCmd.Parameters.AddWithValue("@Phone", phone);
-                        int phoneCount = Convert.ToInt32(phoneCmd.ExecuteScalar());
-                        if (phoneCount > 0)
-                        {
-                            MessageBox.Show("Phone number already exists.", "Duplicate Entry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            textBox3.Focus();
-                            return;
-                        }
-                    }
-
-                    //  Insert new user if validations passed and duplicates not found
-                    string query = "INSERT INTO users (FirstName, LastName, Phone, Email, Password) VALUES (@FirstName, @LastName, @Phone, @Email, @Password)";
-                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
-                    {
-                        cmd.Parameters.AddWithValue("@FirstName", firstName);
-                        cmd.Parameters.AddWithValue("@LastName", lastName);
-                        cmd.Parameters.AddWithValue("@Phone", phone);
-                        cmd.Parameters.AddWithValue("@Email", email);
-                        cmd.Parameters.AddWithValue("@Password", password); // Note: consider password hashing for real applications
-
-                        cmd.ExecuteNonQuery();
-                    }
-
-                    //  Show success message after registration
-                    MessageBox.Show("Signup Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                catch (Exception ex)
-                {
-                    //  Catch any database or connection-related errors
-                    MessageBox.Show($"Error: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-        }
-
+          
         private bool IsValidEmail(string email)
         {
             try
