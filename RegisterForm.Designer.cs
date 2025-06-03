@@ -195,6 +195,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "RegisterForm";
             this.Text = "Register Form";
+            this.Load += new System.EventHandler(this.RegisterForm_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

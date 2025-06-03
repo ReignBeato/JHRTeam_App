@@ -143,6 +143,7 @@ namespace JHRTeam_App
                 return;
             }
 
+
             // 🔹 Begin database interaction
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
@@ -240,6 +241,11 @@ private void pictureBox1_Click(object sender, EventArgs e)
         }
 
         private void textBox2_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RegisterForm_Load_1(object sender, EventArgs e)
         {
 
         }
