@@ -30,7 +30,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TextBox textBox2;
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -42,20 +41,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.buttonBooking = new System.Windows.Forms.Button();
-            textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // textBox2
-            // 
-            textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            textBox2.Location = new System.Drawing.Point(447, 113);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new System.Drawing.Size(195, 31);
-            textBox2.TabIndex = 3;
-            textBox2.Text = "👤  Last Name";
-            textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button1
             // 
@@ -178,11 +166,23 @@
             this.buttonBooking.UseVisualStyleBackColor = false;
             this.buttonBooking.Click += new System.EventHandler(this.buttonBooking_Click);
             // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            this.textBox2.Location = new System.Drawing.Point(447, 113);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(193, 31);
+            this.textBox2.TabIndex = 12;
+            this.textBox2.Text = "👤  Last Name";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged_1);
+            // 
             // RegisterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(685, 389);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.buttonBooking);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -191,7 +191,6 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(textBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
@@ -220,6 +219,5 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonBooking;
         private System.Windows.Forms.TextBox textBox2;
-
     }
 }
