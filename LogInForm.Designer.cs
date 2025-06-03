@@ -84,7 +84,7 @@
             // linklblforgotpassword
             // 
             this.linklblforgotpassword.AutoSize = true;
-            this.linklblforgotpassword.Location = new System.Drawing.Point(71, 204);
+            this.linklblforgotpassword.Location = new System.Drawing.Point(97, 207);
             this.linklblforgotpassword.Name = "linklblforgotpassword";
             this.linklblforgotpassword.Size = new System.Drawing.Size(116, 16);
             this.linklblforgotpassword.TabIndex = 4;
