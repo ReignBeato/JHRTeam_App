@@ -34,8 +34,8 @@ namespace JHRTeam_App
 
         }
 
-        
-           private void button1_Click(object sender, EventArgs e)
+
+        private void button1_Click(object sender, EventArgs e)
         {
             //Get trimmed user input from all fields
             string firstName = textBox1.Text.Trim();
@@ -142,66 +142,82 @@ namespace JHRTeam_App
                 checkBox1.Focus();
                 return;
             }
-
-            // 🔹 Begin database interaction
-            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            if (password != confirmPassword)
             {
-                try
+                MessageBox.Show("Passwords do not match. Please try again.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox5.Focus();
+                return;
+            }
+            else
+            {
+                MessageBox.Show("Signup Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+
+
+        }
+        /*
+        // 🔹 Begin database interaction
+        using (MySqlConnection conn = new MySqlConnection(connectionString))
+        {
+            try
+            {
+                conn.Open();
+
+                //  Check if Email already exists
+                string emailCheckQuery = "SELECT COUNT(*) FROM users WHERE Email = @Email";
+                using (MySqlCommand emailCmd = new MySqlCommand(emailCheckQuery, conn))
                 {
-                    conn.Open();
-
-                    //  Check if Email already exists
-                    string emailCheckQuery = "SELECT COUNT(*) FROM users WHERE Email = @Email";
-                    using (MySqlCommand emailCmd = new MySqlCommand(emailCheckQuery, conn))
+                    emailCmd.Parameters.AddWithValue("@Email", email);
+                    int emailCount = Convert.ToInt32(emailCmd.ExecuteScalar());
+                    if (emailCount > 0)
                     {
-                        emailCmd.Parameters.AddWithValue("@Email", email);
-                        int emailCount = Convert.ToInt32(emailCmd.ExecuteScalar());
-                        if (emailCount > 0)
-                        {
-                            MessageBox.Show("Email already exists.", "Duplicate Entry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            textBox4.Focus();
-                            return;
-                        }
+                        MessageBox.Show("Email already exists.", "Duplicate Entry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        textBox4.Focus();
+                        return;
                     }
-
-                    //  Check if Phone number already exists
-                    string phoneCheckQuery = "SELECT COUNT(*) FROM users WHERE Phone = @Phone";
-                    using (MySqlCommand phoneCmd = new MySqlCommand(phoneCheckQuery, conn))
-                    {
-                        phoneCmd.Parameters.AddWithValue("@Phone", phone);
-                        int phoneCount = Convert.ToInt32(phoneCmd.ExecuteScalar());
-                        if (phoneCount > 0)
-                        {
-                            MessageBox.Show("Phone number already exists.", "Duplicate Entry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            textBox3.Focus();
-                            return;
-                        }
-                    }
-
-                    //  Insert new user if validations passed and duplicates not found
-                    string query = "INSERT INTO users (FirstName, LastName, Phone, Email, Password) VALUES (@FirstName, @LastName, @Phone, @Email, @Password)";
-                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
-                    {
-                        cmd.Parameters.AddWithValue("@FirstName", firstName);
-                        cmd.Parameters.AddWithValue("@LastName", lastName);
-                        cmd.Parameters.AddWithValue("@Phone", phone);
-                        cmd.Parameters.AddWithValue("@Email", email);
-                        cmd.Parameters.AddWithValue("@Password", password); // Note: consider password hashing for real applications
-
-                        cmd.ExecuteNonQuery();
-                    }
-
-                    //  Show success message after registration
-                    MessageBox.Show("Signup Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                catch (Exception ex)
+
+
+
+                //  Check if Phone number already exists
+                string phoneCheckQuery = "SELECT COUNT(*) FROM users WHERE Phone = @Phone";
+                using (MySqlCommand phoneCmd = new MySqlCommand(phoneCheckQuery, conn))
                 {
-                    //  Catch any database or connection-related errors
-                    MessageBox.Show($"Error: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    phoneCmd.Parameters.AddWithValue("@Phone", phone);
+                    int phoneCount = Convert.ToInt32(phoneCmd.ExecuteScalar());
+                    if (phoneCount > 0)
+                    {
+                        MessageBox.Show("Phone number already exists.", "Duplicate Entry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        textBox3.Focus();
+                        return;
+                    }
                 }
+
+                //  Insert new user if validations passed and duplicates not found
+                string query = "INSERT INTO users (FirstName, LastName, Phone, Email, Password) VALUES (@FirstName, @LastName, @Phone, @Email, @Password)";
+                using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@FirstName", firstName);
+                    cmd.Parameters.AddWithValue("@LastName", lastName);
+                    cmd.Parameters.AddWithValue("@Phone", phone);
+                    cmd.Parameters.AddWithValue("@Email", email);
+                    cmd.Parameters.AddWithValue("@Password", password); // Note: consider password hashing for real applications
+
+                    cmd.ExecuteNonQuery();
+                }
+
+                //  Show success message after registration
+                MessageBox.Show("Signup Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                //  Catch any database or connection-related errors
+                MessageBox.Show($"Error: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+    }
+*/
         private bool IsValidEmail(string email)
         {
             try
