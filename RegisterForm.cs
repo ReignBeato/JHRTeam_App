@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using MySql.Data.MySqlClient;
+
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -14,8 +14,7 @@ namespace JHRTeam_App
 {
     public partial class RegisterForm : Form
     {
-        // Define MySQL connection string
-        string connectionString = "Server=localhost;Database=nepal;Uid=root;Pwd=;";
+     
 
         public RegisterForm()
         {
@@ -45,7 +44,7 @@ namespace JHRTeam_App
             string password = textBox5.Text;
             string confirmPassword = textBox6.Text;
 
-            // 🔹 Validate First Name
+            //  Validate First Name
             if (string.IsNullOrEmpty(firstName) || firstName == "First Name")
             {
                 MessageBox.Show("Please enter your First Name.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -53,7 +52,7 @@ namespace JHRTeam_App
                 return;
             }
 
-            // 🔹 Validate Last Name
+            //  Validate Last Name
             if (string.IsNullOrEmpty(lastName) || lastName == "Last Name")
             {
                 MessageBox.Show("Please enter your Last Name.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -75,7 +74,7 @@ namespace JHRTeam_App
                 return;
             }
 
-            // 🔹 Validate Email (not empty and correct format)
+            //  Validate Email (not empty and correct format)
             if (string.IsNullOrEmpty(email) || email == "📧  Email")
             {
                 MessageBox.Show("Please enter your Email.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -135,13 +134,14 @@ namespace JHRTeam_App
             }
 
 
-            // 🔹 Ensure Terms and Conditions are accepted
+            //  Ensure Terms and Conditions are accepted
             if (!checkBox1.Checked)
             {
                 MessageBox.Show("You must accept the terms & conditions.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 checkBox1.Focus();
                 return;
             }
+
             if (password != confirmPassword)
             {
                 MessageBox.Show("Passwords do not match. Please try again.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -218,6 +218,13 @@ namespace JHRTeam_App
         }
     }
 */
+            else
+            {
+                MessageBox.Show("Signup Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+        }
+        
         private bool IsValidEmail(string email)
         {
             try
@@ -244,18 +251,17 @@ private void pictureBox1_Click(object sender, EventArgs e)
 
         }
 
-        
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged_1(object sender, EventArgs e)
         {
 
         }
