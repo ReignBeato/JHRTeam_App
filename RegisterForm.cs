@@ -33,8 +33,8 @@ namespace JHRTeam_App
 
         }
 
-        
-           private void button1_Click(object sender, EventArgs e)
+
+        private void button1_Click(object sender, EventArgs e)
         {
             //Get trimmed user input from all fields
             string firstName = textBox1.Text.Trim();
@@ -142,8 +142,22 @@ namespace JHRTeam_App
                 return;
             }
 
+            if (password != confirmPassword)
+            {
+                MessageBox.Show("Passwords do not match. Please try again.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox5.Focus();
+                return;
+            }
+            else
+            {
+                MessageBox.Show("Signup Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-          
+            }
+
+
+        }
+
+
         private bool IsValidEmail(string email)
         {
             try
