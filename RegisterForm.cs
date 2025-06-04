@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySqlX.XDevAPI.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -150,8 +151,18 @@ namespace JHRTeam_App
             }
             else
             {
-                MessageBox.Show("Signup Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                DialogResult result = MessageBox.Show("Signup Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (result == DialogResult.OK)
+                {
+                    this.Hide();
+                    Form logInForm = new LogInForm();
+                    logInForm.ShowDialog();
+                }
+                else
+                {
+                    this.Close();
+                }
             }
 
 
@@ -172,13 +183,14 @@ namespace JHRTeam_App
             }
         }
 
-        private void buttonBooking_Click(object sender, EventArgs e)
+       /*private void buttonBooking_Click(object sender, EventArgs e)
         {
             this.Hide();
             Form Tickets = new Tickets();
             Tickets.ShowDialog();
         }
-    
+    */
+
 private void pictureBox1_Click(object sender, EventArgs e)
         {
 
