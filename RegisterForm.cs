@@ -141,6 +141,11 @@ namespace JHRTeam_App
                 checkBox1.Focus();
                 return;
             }
+            else
+            {
+                MessageBox.Show("Signup Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
         }
 
           
