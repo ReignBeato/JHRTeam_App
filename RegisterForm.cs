@@ -218,13 +218,13 @@ namespace JHRTeam_App
         }
     }
 */
-            else
+           /* else
             {
                 MessageBox.Show("Signup Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
         }
-        
+        */
         private bool IsValidEmail(string email)
         {
             try
