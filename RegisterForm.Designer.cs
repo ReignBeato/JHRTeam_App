@@ -40,7 +40,6 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.buttonBooking = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -49,9 +48,9 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(447, 326);
+            this.button1.Location = new System.Drawing.Point(484, 322);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 37);
+            this.button1.Size = new System.Drawing.Size(122, 37);
             this.button1.TabIndex = 0;
             this.button1.Text = "SIGN UP";
             this.button1.UseVisualStyleBackColor = false;
@@ -129,9 +128,9 @@
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.Location = new System.Drawing.Point(447, 299);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(159, 17);
+            this.checkBox1.Size = new System.Drawing.Size(181, 17);
             this.checkBox1.TabIndex = 8;
-            this.checkBox1.Text = "accept terms & condition";
+            this.checkBox1.Text = "Accept terms and condition";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -154,25 +153,9 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "PLEASE ENTER YOUR DETAILS";
             // 
-            // buttonBooking
-            // 
-            this.buttonBooking.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.buttonBooking.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonBooking.Location = new System.Drawing.Point(548, 326);
-            this.buttonBooking.Name = "buttonBooking";
-            this.buttonBooking.Size = new System.Drawing.Size(92, 37);
-            this.buttonBooking.TabIndex = 11;
-            this.buttonBooking.Text = "BOOKING";
-            this.buttonBooking.UseVisualStyleBackColor = false;
-            this.buttonBooking.Click += new System.EventHandler(this.buttonBooking_Click);
-            // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.textBox2.Location = new System.Drawing.Point(447, 113);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(193, 31);
             this.textBox2.Location = new System.Drawing.Point(447, 114);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -187,7 +170,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(685, 389);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.buttonBooking);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.checkBox1);
@@ -221,7 +203,6 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button buttonBooking;
         private System.Windows.Forms.TextBox textBox2;
     }
 }
