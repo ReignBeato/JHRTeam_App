@@ -102,14 +102,14 @@ namespace JHRTeam_App
                 return;
             }
 
-            if (!System.IO.File.Exists("users.txt"))
+            if (!System.IO.File.Exists(" string validEmail = \"heli@gmail.com\";\r\n            string validPassword = \"1234567\";"))
             {
                 MessageBox.Show("No users found in the system.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             string foundPassword = null;
-            var lines = System.IO.File.ReadAllLines("users.txt");
+            var lines = System.IO.File.ReadAllLines(" string validEmail = \"heli@gmail.com\";\r\n            string validPassword = \"1234567\";");
             foreach (var line in lines)
             {
                 var parts = line.Split('|');
