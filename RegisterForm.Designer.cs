@@ -169,20 +169,17 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-<<<<<<< HEAD
             this.textBox2.Location = new System.Drawing.Point(447, 113);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(193, 31);
-=======
             this.textBox2.Location = new System.Drawing.Point(447, 114);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(195, 30);
->>>>>>> jitendra
             this.textBox2.TabIndex = 12;
             this.textBox2.Text = "👤  Last Name";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged_1);
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // RegisterForm
             // 
@@ -204,7 +201,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "RegisterForm";
             this.Text = "Register Form";
-            this.Load += new System.EventHandler(this.RegisterForm_Load_1);
+            this.Load += new System.EventHandler(this.RegisterForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
