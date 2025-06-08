@@ -49,20 +49,20 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 4);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(24, 8);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 27);
+            this.label1.Size = new System.Drawing.Size(372, 55);
             this.label1.TabIndex = 0;
             this.label1.Text = "JHR TR  VELS";
             // 
             // buttonHome
             // 
             this.buttonHome.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.buttonHome.Location = new System.Drawing.Point(260, 4);
-            this.buttonHome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonHome.Location = new System.Drawing.Point(520, 8);
+            this.buttonHome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonHome.Name = "buttonHome";
-            this.buttonHome.Size = new System.Drawing.Size(87, 29);
+            this.buttonHome.Size = new System.Drawing.Size(174, 56);
             this.buttonHome.TabIndex = 1;
             this.buttonHome.Text = "Home";
             this.buttonHome.UseVisualStyleBackColor = false;
@@ -70,10 +70,10 @@
             // 
             // buttonPackages
             // 
-            this.buttonPackages.Location = new System.Drawing.Point(355, 4);
-            this.buttonPackages.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonPackages.Location = new System.Drawing.Point(710, 8);
+            this.buttonPackages.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonPackages.Name = "buttonPackages";
-            this.buttonPackages.Size = new System.Drawing.Size(87, 29);
+            this.buttonPackages.Size = new System.Drawing.Size(174, 56);
             this.buttonPackages.TabIndex = 2;
             this.buttonPackages.Text = "Packages";
             this.buttonPackages.UseVisualStyleBackColor = true;
@@ -81,10 +81,10 @@
             // 
             // buttonAirlines
             // 
-            this.buttonAirlines.Location = new System.Drawing.Point(450, 4);
-            this.buttonAirlines.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonAirlines.Location = new System.Drawing.Point(900, 8);
+            this.buttonAirlines.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonAirlines.Name = "buttonAirlines";
-            this.buttonAirlines.Size = new System.Drawing.Size(87, 29);
+            this.buttonAirlines.Size = new System.Drawing.Size(174, 56);
             this.buttonAirlines.TabIndex = 3;
             this.buttonAirlines.Text = "Airlines";
             this.buttonAirlines.UseVisualStyleBackColor = true;
@@ -92,10 +92,10 @@
             // 
             // buttonHotels
             // 
-            this.buttonHotels.Location = new System.Drawing.Point(546, 4);
-            this.buttonHotels.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonHotels.Location = new System.Drawing.Point(1092, 8);
+            this.buttonHotels.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonHotels.Name = "buttonHotels";
-            this.buttonHotels.Size = new System.Drawing.Size(87, 29);
+            this.buttonHotels.Size = new System.Drawing.Size(174, 56);
             this.buttonHotels.TabIndex = 4;
             this.buttonHotels.Text = "Hotels";
             this.buttonHotels.UseVisualStyleBackColor = true;
@@ -103,10 +103,10 @@
             // 
             // buttonTickets
             // 
-            this.buttonTickets.Location = new System.Drawing.Point(642, 4);
-            this.buttonTickets.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonTickets.Location = new System.Drawing.Point(1284, 8);
+            this.buttonTickets.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonTickets.Name = "buttonTickets";
-            this.buttonTickets.Size = new System.Drawing.Size(87, 29);
+            this.buttonTickets.Size = new System.Drawing.Size(174, 56);
             this.buttonTickets.TabIndex = 5;
             this.buttonTickets.Text = "Tickets";
             this.buttonTickets.UseVisualStyleBackColor = true;
@@ -118,10 +118,10 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::JHRTeam_App.Properties.Resources.travelLogo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(103, 4);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(206, 8);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(26, 26);
+            this.pictureBox1.Size = new System.Drawing.Size(52, 50);
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
@@ -131,10 +131,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Elephant", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(220, 204);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(440, 392);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(340, 62);
+            this.label2.Size = new System.Drawing.Size(678, 123);
             this.label2.TabIndex = 6;
             this.label2.Text = "WELCOME";
             // 
@@ -144,10 +144,10 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Lucida Sans Typewriter", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(294, 261);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(588, 502);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(187, 54);
+            this.label3.Size = new System.Drawing.Size(390, 110);
             this.label3.TabIndex = 7;
             this.label3.Text = "तपाईंलाई यहाँ स्वागत छ\n ";
             // 
@@ -157,10 +157,10 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Lucida Sans Typewriter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(300, 295);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(600, 567);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(182, 26);
+            this.label4.Size = new System.Drawing.Size(362, 54);
             this.label4.TabIndex = 8;
             this.label4.Text = "Your Adventure, Our Guide\r\nDiscover Nepal with Ease";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -175,27 +175,27 @@
             this.panelTabs.Controls.Add(this.buttonTickets);
             this.panelTabs.Controls.Add(this.pictureBox1);
             this.panelTabs.Controls.Add(this.label1);
-            this.panelTabs.Location = new System.Drawing.Point(8, 6);
-            this.panelTabs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelTabs.Location = new System.Drawing.Point(16, 12);
+            this.panelTabs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelTabs.Name = "panelTabs";
-            this.panelTabs.Size = new System.Drawing.Size(764, 41);
+            this.panelTabs.Size = new System.Drawing.Size(1528, 79);
             this.panelTabs.TabIndex = 12;
             // 
             // DashboardForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::JHRTeam_App.Properties.Resources.Untitled_design__5_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(755, 389);
+            this.ClientSize = new System.Drawing.Size(1577, 950);
             this.Controls.Add(this.panelTabs);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "DashboardForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard Form";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelTabs.ResumeLayout(false);

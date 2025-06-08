@@ -138,6 +138,7 @@
             this.ClientSize = new System.Drawing.Size(1577, 950);
             this.Controls.Add(this.panelTabs);
             this.Name = "Hotels";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hotels";
             this.panelTabs.ResumeLayout(false);
             this.panelTabs.PerformLayout();

@@ -48,9 +48,10 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(484, 322);
+            this.button1.Location = new System.Drawing.Point(968, 619);
+            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 37);
+            this.button1.Size = new System.Drawing.Size(244, 71);
             this.button1.TabIndex = 0;
             this.button1.Text = "SIGN UP";
             this.button1.UseVisualStyleBackColor = false;
@@ -59,10 +60,11 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(447, 76);
+            this.textBox1.Location = new System.Drawing.Point(894, 146);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 31);
+            this.textBox1.Size = new System.Drawing.Size(386, 56);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "👤  First Name";
             this.textBox1.UseWaitCursor = true;
@@ -72,9 +74,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::JHRTeam_App.Properties.Resources.pexels_vertex_holiday_137931561_15917025;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(-2, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(393, 390);
+            this.pictureBox1.Size = new System.Drawing.Size(786, 750);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -83,10 +86,11 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(447, 150);
+            this.textBox3.Location = new System.Drawing.Point(894, 288);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(195, 31);
+            this.textBox3.Size = new System.Drawing.Size(386, 56);
             this.textBox3.TabIndex = 4;
             this.textBox3.Text = "📞  Phone no";
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
@@ -94,10 +98,11 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(447, 187);
+            this.textBox4.Location = new System.Drawing.Point(894, 360);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(195, 31);
+            this.textBox4.Size = new System.Drawing.Size(386, 56);
             this.textBox4.TabIndex = 5;
             this.textBox4.Text = "📧  Email";
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
@@ -105,20 +110,22 @@
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(447, 224);
+            this.textBox5.Location = new System.Drawing.Point(894, 431);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(195, 31);
+            this.textBox5.Size = new System.Drawing.Size(386, 56);
             this.textBox5.TabIndex = 6;
             this.textBox5.Text = "🔒  Password";
             // 
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(447, 261);
+            this.textBox6.Location = new System.Drawing.Point(894, 502);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(195, 31);
+            this.textBox6.Size = new System.Drawing.Size(386, 56);
             this.textBox6.TabIndex = 7;
             this.textBox6.Text = "🔒  Confirm password";
             // 
@@ -126,9 +133,10 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(447, 299);
+            this.checkBox1.Location = new System.Drawing.Point(894, 575);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(181, 17);
+            this.checkBox1.Size = new System.Drawing.Size(333, 30);
             this.checkBox1.TabIndex = 8;
             this.checkBox1.Text = "Accept terms and condition";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -137,9 +145,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(485, 18);
+            this.label1.Location = new System.Drawing.Point(970, 35);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 16);
+            this.label1.Size = new System.Drawing.Size(152, 30);
             this.label1.TabIndex = 9;
             this.label1.Text = "REGISTER";
             // 
@@ -147,28 +156,30 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(444, 45);
+            this.label2.Location = new System.Drawing.Point(888, 87);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(186, 15);
+            this.label2.Size = new System.Drawing.Size(374, 29);
             this.label2.TabIndex = 10;
             this.label2.Text = "PLEASE ENTER YOUR DETAILS";
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.textBox2.Location = new System.Drawing.Point(447, 114);
+            this.textBox2.Location = new System.Drawing.Point(894, 219);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(195, 30);
+            this.textBox2.Size = new System.Drawing.Size(386, 54);
             this.textBox2.TabIndex = 12;
             this.textBox2.Text = "👤  Last Name";
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // RegisterForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(685, 389);
+            this.ClientSize = new System.Drawing.Size(1370, 748);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -180,8 +191,9 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "RegisterForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register Form";
             this.Load += new System.EventHandler(this.RegisterForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
