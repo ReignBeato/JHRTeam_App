@@ -73,6 +73,16 @@ namespace JHRTeam_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ticketsBG {
+            get {
+                object obj = ResourceManager.GetObject("ticketsBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap travelLogo {
             get {
                 object obj = ResourceManager.GetObject("travelLogo", resourceCulture);
