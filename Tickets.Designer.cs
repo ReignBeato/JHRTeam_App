@@ -45,7 +45,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.textBoxTotalCost = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.buttonBook = new System.Windows.Forms.Button();
             this.buttonClear = new System.Windows.Forms.Button();
             this.comboBoxPackages = new System.Windows.Forms.ComboBox();
@@ -58,6 +57,8 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.labelPrice = new System.Windows.Forms.Label();
+            this.monthCalendarFrom = new System.Windows.Forms.MonthCalendar();
+            this.monthCalendarTo = new System.Windows.Forms.MonthCalendar();
             this.panelTabs.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -248,15 +249,6 @@
             this.textBoxTotalCost.Size = new System.Drawing.Size(227, 31);
             this.textBoxTotalCost.TabIndex = 24;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // buttonBook
             // 
             this.buttonBook.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -285,10 +277,10 @@
             // 
             this.comboBoxPackages.FormattingEnabled = true;
             this.comboBoxPackages.Items.AddRange(new object[] {
-            "Package 1",
-            "Package 2",
-            "Package 3",
-            "Package 4"});
+            "Everest",
+            "Kathmandu",
+            "Pokhara",
+            "Annapuna"});
             this.comboBoxPackages.Location = new System.Drawing.Point(436, 159);
             this.comboBoxPackages.Name = "comboBoxPackages";
             this.comboBoxPackages.Size = new System.Drawing.Size(333, 33);
@@ -301,6 +293,7 @@
             this.textBoxFromDate.Name = "textBoxFromDate";
             this.textBoxFromDate.Size = new System.Drawing.Size(164, 31);
             this.textBoxFromDate.TabIndex = 31;
+            this.textBoxFromDate.Click += new System.EventHandler(this.textBoxFromDate_Click);
             // 
             // textBoxToDate
             // 
@@ -308,6 +301,7 @@
             this.textBoxToDate.Name = "textBoxToDate";
             this.textBoxToDate.Size = new System.Drawing.Size(164, 31);
             this.textBoxToDate.TabIndex = 32;
+            this.textBoxToDate.Click += new System.EventHandler(this.textBoxToDate_Click);
             // 
             // textBoxAdultsTickets
             // 
@@ -373,6 +367,20 @@
             this.labelPrice.TabIndex = 40;
             this.labelPrice.Text = "Adult Price:                        Child Price:";
             // 
+            // monthCalendarFrom
+            // 
+            this.monthCalendarFrom.Location = new System.Drawing.Point(120, 525);
+            this.monthCalendarFrom.Name = "monthCalendarFrom";
+            this.monthCalendarFrom.TabIndex = 41;
+            this.monthCalendarFrom.DateSelected += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendarFrom_DateSelected);
+            // 
+            // monthCalendarTo
+            // 
+            this.monthCalendarTo.Location = new System.Drawing.Point(542, 525);
+            this.monthCalendarTo.Name = "monthCalendarTo";
+            this.monthCalendarTo.TabIndex = 42;
+            this.monthCalendarTo.DateSelected += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendarTo_DateSelected);
+            // 
             // Tickets
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -381,6 +389,8 @@
             this.BackgroundImage = global::JHRTeam_App.Properties.Resources.ticketsBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1577, 950);
+            this.Controls.Add(this.monthCalendarTo);
+            this.Controls.Add(this.monthCalendarFrom);
             this.Controls.Add(this.labelPrice);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -393,7 +403,6 @@
             this.Controls.Add(this.comboBoxPackages);
             this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.buttonBook);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBoxTotalCost);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -407,6 +416,7 @@
             this.Name = "Tickets";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tickets";
+            this.Click += new System.EventHandler(this.Tickets_Click);
             this.panelTabs.ResumeLayout(false);
             this.panelTabs.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -434,7 +444,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBoxTotalCost;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonBook;
         private System.Windows.Forms.Button buttonClear;
         private System.Windows.Forms.ComboBox comboBoxPackages;
@@ -447,5 +456,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label labelPrice;
+        private System.Windows.Forms.MonthCalendar monthCalendarFrom;
+        private System.Windows.Forms.MonthCalendar monthCalendarTo;
     }
 }
