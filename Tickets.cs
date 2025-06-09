@@ -20,6 +20,8 @@ namespace JHRTeam_App
         public Tickets()
         {
             InitializeComponent();
+            monthCalendarFrom.Visible = false;
+            monthCalendarTo.Visible = false;
         }
 
         private void buttonTickets_Click(object sender, EventArgs e)
@@ -159,6 +161,42 @@ namespace JHRTeam_App
                 childrenTickets = 150;
                 labelPrice.Text = "Adult Price: $250                 Child Price: $150";
             }
+        }
+
+        private void textBoxFromDate_Click(object sender, EventArgs e)
+        {
+            monthCalendarTo.Visible = false;
+            monthCalendarFrom.Visible = true;
+        }
+
+        private void textBoxToDate_Click(object sender, EventArgs e)
+        {
+            monthCalendarFrom.Visible = false;
+            monthCalendarTo.Visible = true;
+        }
+
+        private void monthCalendarFrom_DateSelected(object sender, DateRangeEventArgs e)
+        {
+            textBoxFromDate.Text = monthCalendarFrom.SelectionStart.ToString("dd MMMM yyyy");
+        }
+
+        private void monthCalendarTo_DateSelected(object sender, DateRangeEventArgs e)
+        {
+            textBoxToDate.Text = monthCalendarTo.SelectionStart.ToString("dd MMMM yyyy");
+
+            if (monthCalendarFrom.SelectionStart == monthCalendarTo.SelectionStart)
+            {
+                MessageBox.Show("Please select different dates for the tour.", "Date Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                textBoxFromDate.Text = "";
+                textBoxToDate.Text = "";
+                return;
+            }
+        }
+
+        private void Tickets_Click(object sender, EventArgs e)
+        {
+            monthCalendarFrom.Visible = false;
+            monthCalendarTo.Visible = false;
         }
     }
 }
