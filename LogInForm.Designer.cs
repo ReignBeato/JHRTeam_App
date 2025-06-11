@@ -50,9 +50,10 @@
             this.panel1.Controls.Add(this.txtemail);
             this.panel1.Controls.Add(this.lblLogin);
             this.panel1.Controls.Add(this.lblWelcomeBack);
-            this.panel1.Location = new System.Drawing.Point(590, 83);
+            this.panel1.Location = new System.Drawing.Point(884, 129);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(340, 328);
+            this.panel1.Size = new System.Drawing.Size(508, 510);
             this.panel1.TabIndex = 0;
             // 
             // buttonSignIn
@@ -60,9 +61,10 @@
             this.buttonSignIn.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.buttonSignIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSignIn.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.buttonSignIn.Location = new System.Drawing.Point(179, 264);
+            this.buttonSignIn.Location = new System.Drawing.Point(268, 412);
+            this.buttonSignIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSignIn.Name = "buttonSignIn";
-            this.buttonSignIn.Size = new System.Drawing.Size(103, 34);
+            this.buttonSignIn.Size = new System.Drawing.Size(154, 54);
             this.buttonSignIn.TabIndex = 6;
             this.buttonSignIn.Text = "SIGN IN";
             this.buttonSignIn.UseVisualStyleBackColor = false;
@@ -73,9 +75,10 @@
             this.btnlogin.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlogin.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnlogin.Location = new System.Drawing.Point(63, 264);
+            this.btnlogin.Location = new System.Drawing.Point(94, 412);
+            this.btnlogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(103, 34);
+            this.btnlogin.Size = new System.Drawing.Size(154, 54);
             this.btnlogin.TabIndex = 5;
             this.btnlogin.Text = "LOG IN";
             this.btnlogin.UseVisualStyleBackColor = false;
@@ -84,9 +87,10 @@
             // linklblforgotpassword
             // 
             this.linklblforgotpassword.AutoSize = true;
-            this.linklblforgotpassword.Location = new System.Drawing.Point(97, 207);
+            this.linklblforgotpassword.Location = new System.Drawing.Point(146, 323);
+            this.linklblforgotpassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linklblforgotpassword.Name = "linklblforgotpassword";
-            this.linklblforgotpassword.Size = new System.Drawing.Size(116, 16);
+            this.linklblforgotpassword.Size = new System.Drawing.Size(186, 25);
             this.linklblforgotpassword.TabIndex = 4;
             this.linklblforgotpassword.TabStop = true;
             this.linklblforgotpassword.Text = "Forgot Password?";
@@ -94,26 +98,30 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(63, 162);
+            this.txtPassword.Location = new System.Drawing.Point(94, 254);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(220, 22);
+            this.txtPassword.Size = new System.Drawing.Size(328, 31);
             this.txtPassword.TabIndex = 3;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
             // txtemail
             // 
-            this.txtemail.Location = new System.Drawing.Point(63, 104);
+            this.txtemail.Location = new System.Drawing.Point(94, 162);
+            this.txtemail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(220, 22);
+            this.txtemail.Size = new System.Drawing.Size(328, 31);
             this.txtemail.TabIndex = 2;
+            this.txtemail.TextChanged += new System.EventHandler(this.txtemail_TextChanged);
             // 
             // lblLogin
             // 
             this.lblLogin.AutoSize = true;
             this.lblLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogin.Location = new System.Drawing.Point(129, 56);
+            this.lblLogin.Location = new System.Drawing.Point(194, 88);
+            this.lblLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(84, 25);
+            this.lblLogin.Size = new System.Drawing.Size(132, 37);
             this.lblLogin.TabIndex = 1;
             this.lblLogin.Text = "LOG IN";
             this.lblLogin.Click += new System.EventHandler(this.label2_Click);
@@ -123,23 +131,25 @@
             this.lblWelcomeBack.AutoSize = true;
             this.lblWelcomeBack.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcomeBack.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.lblWelcomeBack.Location = new System.Drawing.Point(68, 16);
+            this.lblWelcomeBack.Location = new System.Drawing.Point(102, 25);
+            this.lblWelcomeBack.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWelcomeBack.Name = "lblWelcomeBack";
-            this.lblWelcomeBack.Size = new System.Drawing.Size(215, 31);
+            this.lblWelcomeBack.Size = new System.Drawing.Size(345, 50);
             this.lblWelcomeBack.TabIndex = 0;
             this.lblWelcomeBack.Text = "WELCOME BACK!";
             // 
             // LogInForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1051, 608);
+            this.ClientSize = new System.Drawing.Size(1576, 950);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "LogInForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Log In Form";
             this.Load += new System.EventHandler(this.LogInForm_Load);
             this.panel1.ResumeLayout(false);

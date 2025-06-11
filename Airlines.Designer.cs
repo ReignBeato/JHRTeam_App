@@ -199,6 +199,7 @@
             this.Controls.Add(this.panelTabs);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Airlines";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Airlines";
             this.panelTabs.ResumeLayout(false);
             this.panelTabs.PerformLayout();

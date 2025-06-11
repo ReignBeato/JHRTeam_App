@@ -116,6 +116,9 @@ namespace JHRTeam_App.Properties {
         internal static System.Drawing.Bitmap singapore {
             get {
                 object obj = ResourceManager.GetObject("singapore", resourceCulture);
+        internal static System.Drawing.Bitmap ticketsBG {
+            get {
+                object obj = ResourceManager.GetObject("ticketsBG", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
