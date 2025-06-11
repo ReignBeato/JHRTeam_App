@@ -49,5 +49,10 @@ namespace JHRTeam_App
             Form LogInForm = new LogInForm();
             LogInForm.ShowDialog();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.emirates.com");
+        }
     }
 }

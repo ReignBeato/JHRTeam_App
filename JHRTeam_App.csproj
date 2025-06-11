@@ -204,5 +204,20 @@
   <ItemGroup>
     <None Include="Resources\pexels-vertex-holiday-137931561-15917025.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qater.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emirates.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Air India.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\singapore.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nepal.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
