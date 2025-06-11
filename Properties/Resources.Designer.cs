@@ -63,6 +63,36 @@ namespace JHRTeam_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Air_India {
+            get {
+                object obj = ResourceManager.GetObject("Air India", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap emirates {
+            get {
+                object obj = ResourceManager.GetObject("emirates", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nepal {
+            get {
+                object obj = ResourceManager.GetObject("nepal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pexels_vertex_holiday_137931561_15917025 {
             get {
                 object obj = ResourceManager.GetObject("pexels_vertex_holiday_137931561_15917025", resourceCulture);
@@ -73,6 +103,19 @@ namespace JHRTeam_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap qater {
+            get {
+                object obj = ResourceManager.GetObject("qater", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap singapore {
+            get {
+                object obj = ResourceManager.GetObject("singapore", resourceCulture);
         internal static System.Drawing.Bitmap ticketsBG {
             get {
                 object obj = ResourceManager.GetObject("ticketsBG", resourceCulture);
