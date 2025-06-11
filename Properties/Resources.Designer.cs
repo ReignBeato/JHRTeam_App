@@ -63,9 +63,29 @@ namespace JHRTeam_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Air_India {
+        internal static System.Drawing.Bitmap AirIndia {
             get {
-                object obj = ResourceManager.GetObject("Air India", resourceCulture);
+                object obj = ResourceManager.GetObject("AirIndia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AirNZ {
+            get {
+                object obj = ResourceManager.GetObject("AirNZ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Druk {
+            get {
+                object obj = ResourceManager.GetObject("Druk", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -76,6 +96,16 @@ namespace JHRTeam_App.Properties {
         internal static System.Drawing.Bitmap emirates {
             get {
                 object obj = ResourceManager.GetObject("emirates", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Malaysia {
+            get {
+                object obj = ResourceManager.GetObject("Malaysia", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +133,9 @@ namespace JHRTeam_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap qater {
+        internal static System.Drawing.Bitmap qatar {
             get {
-                object obj = ResourceManager.GetObject("qater", resourceCulture);
+                object obj = ResourceManager.GetObject("qatar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +146,23 @@ namespace JHRTeam_App.Properties {
         internal static System.Drawing.Bitmap singapore {
             get {
                 object obj = ResourceManager.GetObject("singapore", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Thai {
+            get {
+                object obj = ResourceManager.GetObject("Thai", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ticketsBG {
             get {
                 object obj = ResourceManager.GetObject("ticketsBG", resourceCulture);

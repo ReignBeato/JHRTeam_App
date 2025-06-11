@@ -130,19 +130,31 @@
   <data name="travelLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\travelLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Air India" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="AirIndia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Air India.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pexels_vertex_holiday_137931561_15917025" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-vertex-holiday-137931561-15917025.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="qater" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\qater.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="nepal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nepal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="singapore" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\singapore.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qatar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AirNZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AirNZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Druk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Druk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Malaysia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Malaysia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
