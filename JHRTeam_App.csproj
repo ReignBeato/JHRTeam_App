@@ -205,10 +205,38 @@
     <None Include="Resources\pexels-vertex-holiday-137931561-15917025.jpg" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Resources\11.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\back.png" />
+=======
+    <None Include="Resources\emirates.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Air India.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\singapore.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nepal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qatar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malaysia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Druk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AirNZ.png" />
+>>>>>>> f0096a6ceb1784b385429d24348fb22133dc999f
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

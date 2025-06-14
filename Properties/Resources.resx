@@ -118,12 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+<<<<<<< HEAD
   <data name="pexels_vertex_holiday_137931561_15917025" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-vertex-holiday-137931561-15917025.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+=======
+  <data name="emirates" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emirates.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> f0096a6ceb1784b385429d24348fb22133dc999f
   </data>
   <data name="Untitled_design__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled design (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+<<<<<<< HEAD
   <data name="travelLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\travelLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -135,5 +141,39 @@
   </data>
   <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+=======
+  <data name="ticketsBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ticketsBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="travelLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\travelLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AirIndia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Air India.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels_vertex_holiday_137931561_15917025" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-vertex-holiday-137931561-15917025.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nepal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nepal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="singapore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\singapore.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qatar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AirNZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AirNZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Druk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Druk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Malaysia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Malaysia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> f0096a6ceb1784b385429d24348fb22133dc999f
   </data>
 </root>

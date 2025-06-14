@@ -73,7 +73,7 @@ namespace JHRTeam_App
 
             // Example credentials dummy data
             string validEmail = "heli@gmail.com";
-            string validPassword = "1234567";
+            string validPassword = "Heli123!";
 
 
             if (email == validEmail && password == validPassword)
@@ -97,7 +97,7 @@ namespace JHRTeam_App
             string email = Microsoft.VisualBasic.Interaction.InputBox( "Enter your registered email address:","Forgot Password", "");
 
             string Email = "heli@gmail.com";
-            string Password = "1234567";
+            string Password = "Heli123!";
 
             if (email == Email)
             {
@@ -107,6 +107,11 @@ namespace JHRTeam_App
             {
                 MessageBox.Show("Email not found. Try again.");
             }
+
+        }
+
+        private void txtemail_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
