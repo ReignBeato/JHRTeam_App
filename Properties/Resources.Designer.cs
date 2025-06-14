@@ -63,9 +63,15 @@ namespace JHRTeam_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+        internal static System.Drawing.Bitmap _1 {
+            get {
+                object obj = ResourceManager.GetObject("1", resourceCulture);
+=======
         internal static System.Drawing.Bitmap AirIndia {
             get {
                 object obj = ResourceManager.GetObject("AirIndia", resourceCulture);
+>>>>>>> f0096a6ceb1784b385429d24348fb22133dc999f
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +79,15 @@ namespace JHRTeam_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+        internal static System.Drawing.Bitmap _11 {
+            get {
+                object obj = ResourceManager.GetObject("11", resourceCulture);
+=======
         internal static System.Drawing.Bitmap AirNZ {
             get {
                 object obj = ResourceManager.GetObject("AirNZ", resourceCulture);
+>>>>>>> f0096a6ceb1784b385429d24348fb22133dc999f
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,6 +95,11 @@ namespace JHRTeam_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+        internal static System.Drawing.Bitmap back {
+            get {
+                object obj = ResourceManager.GetObject("back", resourceCulture);
+=======
         internal static System.Drawing.Bitmap Druk {
             get {
                 object obj = ResourceManager.GetObject("Druk", resourceCulture);
@@ -116,6 +133,7 @@ namespace JHRTeam_App.Properties {
         internal static System.Drawing.Bitmap nepal {
             get {
                 object obj = ResourceManager.GetObject("nepal", resourceCulture);
+>>>>>>> f0096a6ceb1784b385429d24348fb22133dc999f
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -73,16 +73,18 @@
             this.panelTabs.Controls.Add(this.buttonTickets);
             this.panelTabs.Controls.Add(this.pictureBox1);
             this.panelTabs.Controls.Add(this.label1);
-            this.panelTabs.Location = new System.Drawing.Point(10, 12);
+            this.panelTabs.Location = new System.Drawing.Point(5, 6);
+            this.panelTabs.Margin = new System.Windows.Forms.Padding(2);
             this.panelTabs.Name = "panelTabs";
-            this.panelTabs.Size = new System.Drawing.Size(1555, 78);
+            this.panelTabs.Size = new System.Drawing.Size(778, 41);
             this.panelTabs.TabIndex = 14;
             // 
             // buttonHome
             // 
-            this.buttonHome.Location = new System.Drawing.Point(523, 8);
+            this.buttonHome.Location = new System.Drawing.Point(262, 4);
+            this.buttonHome.Margin = new System.Windows.Forms.Padding(2);
             this.buttonHome.Name = "buttonHome";
-            this.buttonHome.Size = new System.Drawing.Size(174, 55);
+            this.buttonHome.Size = new System.Drawing.Size(87, 29);
             this.buttonHome.TabIndex = 1;
             this.buttonHome.Text = "Home";
             this.buttonHome.UseVisualStyleBackColor = true;
@@ -90,9 +92,10 @@
             // 
             // buttonPackages
             // 
-            this.buttonPackages.Location = new System.Drawing.Point(712, 8);
+            this.buttonPackages.Location = new System.Drawing.Point(356, 4);
+            this.buttonPackages.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPackages.Name = "buttonPackages";
-            this.buttonPackages.Size = new System.Drawing.Size(174, 55);
+            this.buttonPackages.Size = new System.Drawing.Size(87, 29);
             this.buttonPackages.TabIndex = 2;
             this.buttonPackages.Text = "Packages";
             this.buttonPackages.UseVisualStyleBackColor = true;
@@ -101,9 +104,10 @@
             // buttonAirlines
             // 
             this.buttonAirlines.BackColor = System.Drawing.Color.Transparent;
-            this.buttonAirlines.Location = new System.Drawing.Point(903, 8);
+            this.buttonAirlines.Location = new System.Drawing.Point(452, 4);
+            this.buttonAirlines.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAirlines.Name = "buttonAirlines";
-            this.buttonAirlines.Size = new System.Drawing.Size(174, 55);
+            this.buttonAirlines.Size = new System.Drawing.Size(87, 29);
             this.buttonAirlines.TabIndex = 3;
             this.buttonAirlines.Text = "Airlines";
             this.buttonAirlines.UseVisualStyleBackColor = false;
@@ -111,9 +115,10 @@
             // 
             // buttonHotels
             // 
-            this.buttonHotels.Location = new System.Drawing.Point(1095, 7);
+            this.buttonHotels.Location = new System.Drawing.Point(548, 4);
+            this.buttonHotels.Margin = new System.Windows.Forms.Padding(2);
             this.buttonHotels.Name = "buttonHotels";
-            this.buttonHotels.Size = new System.Drawing.Size(174, 55);
+            this.buttonHotels.Size = new System.Drawing.Size(87, 29);
             this.buttonHotels.TabIndex = 4;
             this.buttonHotels.Text = "Hotels";
             this.buttonHotels.UseVisualStyleBackColor = true;
@@ -122,9 +127,10 @@
             // buttonTickets
             // 
             this.buttonTickets.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.buttonTickets.Location = new System.Drawing.Point(1285, 7);
+            this.buttonTickets.Location = new System.Drawing.Point(642, 4);
+            this.buttonTickets.Margin = new System.Windows.Forms.Padding(2);
             this.buttonTickets.Name = "buttonTickets";
-            this.buttonTickets.Size = new System.Drawing.Size(174, 55);
+            this.buttonTickets.Size = new System.Drawing.Size(87, 29);
             this.buttonTickets.TabIndex = 5;
             this.buttonTickets.Text = "Tickets";
             this.buttonTickets.UseVisualStyleBackColor = false;
@@ -136,9 +142,10 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::JHRTeam_App.Properties.Resources.travelLogo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(206, 7);
+            this.pictureBox1.Location = new System.Drawing.Point(103, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(52, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(26, 26);
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
@@ -148,9 +155,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(23, 8);
+            this.label1.Location = new System.Drawing.Point(12, 4);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(372, 55);
+            this.label1.Size = new System.Drawing.Size(180, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "JHR TR  VELS";
             // 
@@ -383,9 +391,12 @@
             // 
             // Tickets
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(115)))), ((int)(((byte)(90)))));
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(685, 389);
+=======
             this.BackgroundImage = global::JHRTeam_App.Properties.Resources.ticketsBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1577, 950);
@@ -412,7 +423,9 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+>>>>>>> f0096a6ceb1784b385429d24348fb22133dc999f
             this.Controls.Add(this.panelTabs);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Tickets";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tickets";
