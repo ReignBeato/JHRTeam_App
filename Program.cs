@@ -16,11 +16,9 @@ namespace JHRTeam_App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
+
             Application.Run(new Packages());
-=======
             Application.Run(new Tickets());
->>>>>>> f0096a6ceb1784b385429d24348fb22133dc999f
         }
     }
 }
