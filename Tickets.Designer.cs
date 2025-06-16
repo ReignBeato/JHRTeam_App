@@ -394,9 +394,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(115)))), ((int)(((byte)(90)))));
-<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(685, 389);
-=======
             this.BackgroundImage = global::JHRTeam_App.Properties.Resources.ticketsBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1577, 950);
@@ -423,7 +421,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
->>>>>>> f0096a6ceb1784b385429d24348fb22133dc999f
             this.Controls.Add(this.panelTabs);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Tickets";
