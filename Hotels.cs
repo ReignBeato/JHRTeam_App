@@ -15,8 +15,15 @@ namespace JHRTeam_App
         public Hotels()
         {
             InitializeComponent();
-        }
 
+            // Load hotel images from resources
+
+
+        }
+        private void Hotels_Load(object sender, EventArgs e)
+        {
+
+        }
         private void buttonHotels_Click(object sender, EventArgs e)
         {
 
@@ -49,5 +56,7 @@ namespace JHRTeam_App
             Form LogInForm = new LogInForm();
             LogInForm.ShowDialog();
         }
+
+     
     }
 }

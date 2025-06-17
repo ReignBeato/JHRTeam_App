@@ -235,5 +235,29 @@
   <ItemGroup>
     <None Include="Resources\AirNZ.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotelEverestview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barahi hotel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Middle path hotel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\natural spring hotel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Panorma hotel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sambala hotel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Terraces resort.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gokarnaresort.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
