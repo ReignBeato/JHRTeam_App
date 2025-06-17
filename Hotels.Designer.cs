@@ -165,7 +165,7 @@
             // 
             // picboxEverestviewhotel
             // 
-            this.picboxEverestviewhotel.Location = new System.Drawing.Point(40, 99);
+            this.picboxEverestviewhotel.Location = new System.Drawing.Point(28, 99);
             this.picboxEverestviewhotel.Name = "picboxEverestviewhotel";
             this.picboxEverestviewhotel.Size = new System.Drawing.Size(168, 153);
             this.picboxEverestviewhotel.TabIndex = 14;
@@ -173,7 +173,7 @@
             // 
             // picboxBarahi
             // 
-            this.picboxBarahi.Location = new System.Drawing.Point(304, 99);
+            this.picboxBarahi.Location = new System.Drawing.Point(282, 99);
             this.picboxBarahi.Name = "picboxBarahi";
             this.picboxBarahi.Size = new System.Drawing.Size(168, 153);
             this.picboxBarahi.TabIndex = 15;
@@ -181,7 +181,7 @@
             // 
             // picboxGokarnaresort
             // 
-            this.picboxGokarnaresort.Location = new System.Drawing.Point(556, 99);
+            this.picboxGokarnaresort.Location = new System.Drawing.Point(538, 99);
             this.picboxGokarnaresort.Name = "picboxGokarnaresort";
             this.picboxGokarnaresort.Size = new System.Drawing.Size(168, 153);
             this.picboxGokarnaresort.TabIndex = 16;
@@ -189,7 +189,7 @@
             // 
             // picboxMiddlepathhotel
             // 
-            this.picboxMiddlepathhotel.Location = new System.Drawing.Point(810, 99);
+            this.picboxMiddlepathhotel.Location = new System.Drawing.Point(784, 99);
             this.picboxMiddlepathhotel.Name = "picboxMiddlepathhotel";
             this.picboxMiddlepathhotel.Size = new System.Drawing.Size(168, 153);
             this.picboxMiddlepathhotel.TabIndex = 17;
@@ -213,7 +213,7 @@
             // 
             // picboxSambalahotel
             // 
-            this.picboxSambalahotel.Location = new System.Drawing.Point(496, 372);
+            this.picboxSambalahotel.Location = new System.Drawing.Point(538, 372);
             this.picboxSambalahotel.Name = "picboxSambalahotel";
             this.picboxSambalahotel.Size = new System.Drawing.Size(168, 153);
             this.picboxSambalahotel.TabIndex = 20;
@@ -221,7 +221,7 @@
             // 
             // picboxTerracesresort
             // 
-            this.picboxTerracesresort.Location = new System.Drawing.Point(736, 372);
+            this.picboxTerracesresort.Location = new System.Drawing.Point(784, 372);
             this.picboxTerracesresort.Name = "picboxTerracesresort";
             this.picboxTerracesresort.Size = new System.Drawing.Size(168, 153);
             this.picboxTerracesresort.TabIndex = 21;
@@ -231,89 +231,105 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel1.Location = new System.Drawing.Point(59, 281);
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Location = new System.Drawing.Point(37, 268);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(123, 16);
+            this.linkLabel1.Size = new System.Drawing.Size(176, 20);
             this.linkLabel1.TabIndex = 22;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Hotel Everest View \r\n";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel2.Location = new System.Drawing.Point(363, 272);
+            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.Location = new System.Drawing.Point(318, 272);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(81, 16);
+            this.linkLabel2.Size = new System.Drawing.Size(115, 20);
             this.linkLabel2.TabIndex = 23;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Hotel Barahi";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
             this.linkLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel3.Location = new System.Drawing.Point(595, 272);
+            this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel3.Location = new System.Drawing.Point(544, 272);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(105, 16);
+            this.linkLabel3.Size = new System.Drawing.Size(147, 20);
             this.linkLabel3.TabIndex = 24;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Resort Gokarna ";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
             // linkLabel4
             // 
             this.linkLabel4.AutoSize = true;
             this.linkLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel4.Location = new System.Drawing.Point(848, 272);
+            this.linkLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel4.Location = new System.Drawing.Point(793, 272);
             this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(113, 16);
+            this.linkLabel4.Size = new System.Drawing.Size(159, 20);
             this.linkLabel4.TabIndex = 25;
             this.linkLabel4.TabStop = true;
             this.linkLabel4.Text = "Hotel Middle Path";
+            this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
             // 
             // linkLabel5
             // 
             this.linkLabel5.AutoSize = true;
             this.linkLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel5.Location = new System.Drawing.Point(68, 547);
+            this.linkLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel5.Location = new System.Drawing.Point(32, 543);
             this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(127, 16);
+            this.linkLabel5.Size = new System.Drawing.Size(181, 20);
             this.linkLabel5.TabIndex = 26;
             this.linkLabel5.TabStop = true;
             this.linkLabel5.Text = "Hotel Natural Spring";
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
             // 
             // linkLabel6
             // 
             this.linkLabel6.AutoSize = true;
             this.linkLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel6.Location = new System.Drawing.Point(339, 537);
+            this.linkLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel6.Location = new System.Drawing.Point(299, 544);
             this.linkLabel6.Name = "linkLabel6";
-            this.linkLabel6.Size = new System.Drawing.Size(97, 16);
+            this.linkLabel6.Size = new System.Drawing.Size(134, 20);
             this.linkLabel6.TabIndex = 27;
             this.linkLabel6.TabStop = true;
             this.linkLabel6.Text = "Hotel Panorma";
+            this.linkLabel6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked);
             // 
             // linkLabel7
             // 
             this.linkLabel7.AutoSize = true;
             this.linkLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel7.Location = new System.Drawing.Point(553, 547);
+            this.linkLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel7.Location = new System.Drawing.Point(574, 547);
             this.linkLabel7.Name = "linkLabel7";
-            this.linkLabel7.Size = new System.Drawing.Size(97, 16);
+            this.linkLabel7.Size = new System.Drawing.Size(132, 20);
             this.linkLabel7.TabIndex = 28;
             this.linkLabel7.TabStop = true;
             this.linkLabel7.Text = "Hotel Sambala";
+            this.linkLabel7.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel7_LinkClicked);
             // 
             // linkLabel8
             // 
             this.linkLabel8.AutoSize = true;
             this.linkLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel8.Location = new System.Drawing.Point(795, 547);
+            this.linkLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel8.Location = new System.Drawing.Point(793, 543);
             this.linkLabel8.Name = "linkLabel8";
-            this.linkLabel8.Size = new System.Drawing.Size(105, 16);
+            this.linkLabel8.Size = new System.Drawing.Size(146, 20);
             this.linkLabel8.TabIndex = 29;
             this.linkLabel8.TabStop = true;
             this.linkLabel8.Text = "Terraces Resort";
+            this.linkLabel8.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel8_LinkClicked);
             // 
             // Hotels
             // 
