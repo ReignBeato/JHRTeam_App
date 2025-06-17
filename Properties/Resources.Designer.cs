@@ -113,6 +113,16 @@ namespace JHRTeam_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap barahi_hotel {
+            get {
+                object obj = ResourceManager.GetObject("barahi_hotel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap Druk {
             get {
                 object obj = ResourceManager.GetObject("Druk", resourceCulture);
@@ -133,6 +143,26 @@ namespace JHRTeam_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap Gokarnaresort {
+            get {
+                object obj = ResourceManager.GetObject("Gokarnaresort", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap hotelEverestview {
+            get {
+                object obj = ResourceManager.GetObject("hotelEverestview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap Malaysia {
             get {
                 object obj = ResourceManager.GetObject("Malaysia", resourceCulture);
@@ -143,9 +173,39 @@ namespace JHRTeam_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap Middle_path_hotel {
+            get {
+                object obj = ResourceManager.GetObject("Middle_path_hotel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap natural_spring_hotel {
+            get {
+                object obj = ResourceManager.GetObject("natural_spring_hotel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap nepal {
             get {
                 object obj = ResourceManager.GetObject("nepal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Panorma_hotel {
+            get {
+                object obj = ResourceManager.GetObject("Panorma_hotel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +233,29 @@ namespace JHRTeam_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap sambala_hotel {
+            get {
+                object obj = ResourceManager.GetObject("sambala_hotel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap singapore {
             get {
                 object obj = ResourceManager.GetObject("singapore", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Terraces_resort {
+            get {
+                object obj = ResourceManager.GetObject("Terraces_resort", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
