@@ -139,27 +139,27 @@ namespace JHRTeam_App
         {
             if (comboBoxPackages.SelectedIndex == 0)
             {
-                adultTickets = 100;
-                childrenTickets = 50;
-                labelPrice.Text = "Adult Price: $100                 Child Price: $50";
+                adultTickets = 85000;
+                childrenTickets = 60000;
+                labelPrice.Text = "Adult Price: $85,000              Child Price: $60,000";
             }
             else if (comboBoxPackages.SelectedIndex == 1)
             {
-                adultTickets = 150;
-                childrenTickets = 75;
-                labelPrice.Text = "Adult Price: $150                 Child Price: $75";
+                adultTickets = 8500;
+                childrenTickets = 5000;
+                labelPrice.Text = "Adult Price: $8,500               Child Price: $5,000";
             }
             else if (comboBoxPackages.SelectedIndex == 2)
             {
-                adultTickets = 200;
-                childrenTickets = 100;
-                labelPrice.Text = "Adult Price: $200                 Child Price: $100";
+                adultTickets = 15000;
+                childrenTickets = 10000;
+                labelPrice.Text = "Adult Price: $15,000              Child Price: $10,000";
             }
             else
             {
-                adultTickets = 250;
-                childrenTickets = 150;
-                labelPrice.Text = "Adult Price: $250                 Child Price: $150";
+                adultTickets = 65000;
+                childrenTickets = 45000;
+                labelPrice.Text = "Adult Price: $65,000              Child Price: $45,000";
             }
         }
 
