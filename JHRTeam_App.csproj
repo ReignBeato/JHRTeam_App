@@ -168,7 +168,7 @@
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
@@ -205,7 +205,59 @@
     <None Include="Resources\pexels-vertex-holiday-137931561-15917025.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ticketsBG.png" />
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+    <None Include="Resources\emirates.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Air India.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\singapore.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nepal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qatar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malaysia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Druk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AirNZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotelEverestview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barahi hotel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Middle path hotel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\natural spring hotel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Panorma hotel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sambala hotel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Terraces resort.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gokarnaresort.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
